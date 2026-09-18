@@ -9,13 +9,16 @@ function App(){
     return(
 
         <div>
+            <Info/>
+             {/* <About /> */}
+                   {/* <Contact /> */}
+{/* 
+            <Home /> */}
+            {/* <About />
+   
+            <Info /> */}
 
-            <Home />
-            <About />
-            <Contact />
-            <Info />
-
-        <h1>Hello React page</h1>
+        {/* <h1>Hello React page</h1> */}
         
         </div>
     )

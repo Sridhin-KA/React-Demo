@@ -1,9 +1,21 @@
-
+import './Info.css'
 
 function Info(){
+
+    let fruits = ['apple','orange','mango','kiwi']
+        
     return(
         <div>
-            <h1>Info page</h1>
+            <h2> Fruit list </h2>
+
+            <ol>
+                {
+                    fruits.map((index,i,x)=>(
+                        <li key={index} >{x}</li>
+                    ))
+                }
+
+            </ol>
         </div>
     )
 }
