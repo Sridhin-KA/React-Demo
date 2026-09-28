@@ -1,11 +1,14 @@
 import './About.css'
 
 function About(){
-    return(
-        <div>
-            <h1>About page</h1>
-            <p className='ptag'>Demo</p>
-        </div>
-    )
+   
+    let logedin = false
+
+    if (logedin){
+        return <h1>Welcome user</h1>
+    }
+    else{
+        return <h1>Please login</h1>
+    }
 }  
 export default About

@@ -1,4 +1,5 @@
 import './Info.css'
+import NAvbar from './NAvbar'
 
 function Info(){
 
@@ -6,6 +7,7 @@ function Info(){
         
     return(
         <div>
+            <NAvbar/>
             <h2> Fruit list </h2>
 
             <ol>
